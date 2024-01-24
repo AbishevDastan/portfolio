@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/pages/home/home.component';
 import { HeroSectionComponent } from './components/shared/hero-section/hero-section.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectsSectionComponent } from './components/shared/projects-section/projects-section.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeroSectionComponent
+    HeroSectionComponent,
+    ProjectsSectionComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
