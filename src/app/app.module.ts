@@ -8,6 +8,7 @@ import { HeroSectionComponent } from './components/shared/hero-section/hero-sect
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsSectionComponent } from './components/shared/projects-section/projects-section.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { ScrollToTopComponent } from './components/shared/scroll-to-top/scroll-to-top.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
     HomeComponent,
     HeroSectionComponent,
     ProjectsSectionComponent,
-    NavbarComponent
+    NavbarComponent,
+    ScrollToTopComponent
   ],
   imports: [
     BrowserModule,
