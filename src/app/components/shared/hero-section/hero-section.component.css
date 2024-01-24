@@ -1,0 +1,18 @@
+.hero-section-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.hero-section-content h1{
+    color: #ffffff; 
+    font-size: 50px;
+}
+
+.hero-section-content h2{
+    color: #cacaca; 
+}
