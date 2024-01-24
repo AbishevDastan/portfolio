@@ -1,7 +1,6 @@
 .projects-section-container {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 500px;
     height: 100vh;
     display: flex;
 }
@@ -20,7 +19,7 @@
 }
 
 .projects-section-container {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
 .project-cards-grid {
@@ -34,6 +33,13 @@
     width: 48%;
     margin-bottom: 50px;
     border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out opacity 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    opacity: 0.7;
 }
 
 .card-body {
@@ -41,4 +47,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal-header-text h5 {
+    color: #cacaca; 
+}
+
+.modal-content {
+    background-color: rgb(18, 24, 34);
+    color: white;
 }
