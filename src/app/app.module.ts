@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsSectionComponent } from './components/shared/projects-section/projects-section.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { ScrollToTopComponent } from './components/shared/scroll-to-top/scroll-to-top.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ScrollToTopComponent } from './components/shared/scroll-to-top/scroll-t
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

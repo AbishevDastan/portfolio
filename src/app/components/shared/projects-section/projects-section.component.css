@@ -34,7 +34,7 @@
     margin-bottom: 50px;
     border: none;
     cursor: pointer;
-    transition: transform 0.2s ease-in-out opacity 0.2s ease-in-out;
+    transition: transform 0.1s ease-in-out opacity 0.1s ease-in-out;
 }
 
 .card:hover {
@@ -49,11 +49,20 @@
     justify-content: center;
 }
 
-.modal-header-text h5 {
+.modal-body h5 {
     color: #cacaca; 
 }
 
 .modal-content {
     background-color: rgb(18, 24, 34);
     color: white;
+    border: none;
+}
+
+  .modal-header, .modal-body, .modal-footer {
+    border: none;
+  }
+
+.custom-button {
+    width: 100px;
 }
